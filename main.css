@@ -109,4 +109,108 @@ body > .container > .hero > .hero-text > .accordion > .accordion-content > .food
   font-weight: 400;
   height: 0;
   transition: all 0.3s linear;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background: linear-gradient(180deg, #AF68EA 0%, #6563E8 100%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  body > .imggg {
+    transform: translate(-1100px, -7px);
+  }
+  body > .container {
+    background: #fff;
+    overflow: unset;
+    width: 375px;
+    flex-shrink: 0;
+    height: auto;
+    padding: 60px 88px;
+    border-radius: 24px;
+  }
+  body > .container > .img {
+    width: 200px;
+    height: 200px;
+    transform: translate(100px, 10px);
+  }
+  body > .container > .hero {
+    display: flex;
+    flex-direction: column;
+  }
+  body > .container > .hero > .hero-img > img:nth-child(1) {
+    width: 200px;
+    height: 200px;
+    transform: translate(0px, -180px);
+  }
+  body > .container > .hero > .hero-img > img:nth-child(2) {
+    width: 213px;
+    height: 200px;
+    transform: translate(0px, -370px);
+  }
+  body > .container > .hero > .hero-text {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: -340px;
+  }
+  body > .container > .hero > .hero-text > h3 {
+    color: #000;
+    font-family: Kumbh Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: left;
+    margin-left: 0px;
+  }
+  body > .container > .hero > .hero-text > .accordion {
+    max-width: 530px;
+    width: 100%;
+    background: #fff;
+    text-align: left;
+    border-radius: 8px;
+  }
+  body > .container > .hero > .hero-text > .accordion > .accordion-content {
+    margin: 10px 0;
+    background: #ffffff;
+    margin-bottom: 20px;
+    border-bottom: 1px solid var(--Dark-grayish-blue);
+    overflow: hidden;
+  }
+  body > .container > .hero > .hero-text > .accordion > .accordion-content > header {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    padding: 0 15px 0 0;
+    min-height: 50px;
+    background: #fff;
+    transition: all 0.3s linear;
+  }
+  body > .container > .hero > .hero-text > .accordion > .accordion-content > header > .title {
+    color: #525157;
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.07px;
+  }
+  body > .container > .hero > .hero-text > .accordion > .accordion-content > header > i {
+    color: var(--Soft-red);
+    font-size: 14px;
+    font-weight: bolder;
+  }
+  body > .container > .hero > .hero-text > .accordion > .accordion-content > .food {
+    padding: 0 10px 0px 0;
+    font-size: 12px;
+    color: #333;
+    font-family: Kumbh Sans;
+    font-weight: 400;
+    height: 0;
+    transition: all 0.3s linear;
+  }
 }/*# sourceMappingURL=main.css.map */
